@@ -130,7 +130,7 @@ export default function ContactMe({ data }) {
                   <span className="mr-3">
                     <Image
                       alt="gmail"
-                      src="/gmail.png"
+                      src="/images/gmail.png"
                       width="32"
                       height="32"
                     />
@@ -144,7 +144,7 @@ export default function ContactMe({ data }) {
                   <button className="flex mb-4">
                     <Image
                       alt="linkedin"
-                      src="/linkedin.png"
+                      src="/images/linkedin.png"
                       width="32"
                       height="32"
                     />
@@ -156,7 +156,7 @@ export default function ContactMe({ data }) {
                     <button className="flex mb-4">
                       <Image
                         alt="instagram"
-                        src="/instagram.png"
+                        src="/images/instagram.png"
                         width="32"
                         height="32"
                       />
@@ -169,7 +169,7 @@ export default function ContactMe({ data }) {
                   <button className="flex ">
                     <Image
                       alt="github"
-                      src="/github.png"
+                      src="/images/github.png"
                       width="32"
                       height="32"
                     />

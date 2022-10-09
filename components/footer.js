@@ -15,17 +15,17 @@ export default function Footer(props) {
       <div className="socials w-96 flex justify-evenly mt-3">
         <Link href={linkedIn} target="_blank">
           <button>
-            <Image src="/linkedin.png" width={64} height={64} />
+            <Image src="/images/linkedin.png" width={64} height={64} />
           </button>
         </Link>
         <Link href={github} target="_blank">
           <button>
-            <Image src="/github.png" width={64} height={64} />
+            <Image src="/images/github.png" width={64} height={64} />
           </button>
         </Link>
         <Link href="/contactme" target="_blank">
           <button>
-            <Image src="/gmail.png" width={64} height={64} />
+            <Image src="/images/gmail.png" width={64} height={64} />
           </button>
         </Link>
       </div>
