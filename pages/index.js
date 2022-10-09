@@ -11,11 +11,11 @@ import ProjectsCard from "../components/projectsCard";
 export async function getServerSideProps(context) {
   // fetches data about me
    // fetch returns a promise consisting of data in form of string so we need to convert it to JSON using .json()
-   const response = await fetch("https://yash-parwani.netlify.app/api/aboutme");
+   const response = await fetch("https://yash-parwani.herokuapp.com/api/aboutme");
    //.json() also returns a promise ,hence async await
    const datajson = await response.json();
 
-   const responsenew = await fetch("https://yash-parwani.vercel.app/api/projects");
+   const responsenew = await fetch("https://yash-parwani.herokuapp.com/api/projects");
    const projects = await responsenew.json();
   return {
     props: {data: datajson,
