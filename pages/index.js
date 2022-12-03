@@ -15,7 +15,7 @@ export async function getServerSideProps(context) {
    //.json() also returns a promise ,hence async await
    const datajson = await response.json();
 
-   const responsenew = await fetch("https://yash-parwani.herokuapp.com/api/projects");
+   const responsenew = await fetch("https://yash-parwani.netlify.app/api/projects");
    const projects = await responsenew.json();
   return {
     props: {data: datajson,
