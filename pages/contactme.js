@@ -9,7 +9,7 @@ import Header from "../components/header";
 
 export async function getServerSideProps(context) {
   // fetch returns a promise consisting of data in form of string so we need to convert it to JSON using .json()
-  const response = await fetch("https://yash-parwani.herokuapp.com/api/aboutme");
+  const response = await fetch("https://yash-parwani.netlify.app/api/aboutme");
   //.json() also returns a promise ,hence async await
   const data = await response.json();
 
