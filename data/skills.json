@@ -71,7 +71,14 @@
             "src":"/images/github.png",
             "height":"128",
             "width":"128"
-        }
+        },
+        {
+            "name":"AWS Cloud Security Practioner",
+            "src":"/images/aws.png",
+            "height":"128",
+            "width":"128"
+        },
+        
     ],
     "aboutDescStart":"I am currently enrolled at SRM in a four-year curriculum for BTech in Computer Science and Engineering with a Specialization in SoftwareEngineering. I firmly believe in the adage ",
     "aboutDescQuote":"Attitude is Altitude",
