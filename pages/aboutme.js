@@ -6,7 +6,7 @@ import Image from "next/image";
 import useDownloader from "react-use-downloader";
 import Header from "../components/header";
 export async function getServerSideProps(context) {
-  const response = await fetch("https://yash-parwani.herokuapp.com/api/skills");
+  const response = await fetch("https://yash-parwani.netlify.app/api/skills");
   const skills = await response.json();
   return {
     props: {skills}, // will be passed to the page component as props
